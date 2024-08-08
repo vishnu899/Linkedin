@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        nav i {
+            color: rgb(119, 112, 112);
+        }
+
+        nav i:hover {
+            color: black;
+        }
+    </style>
+</head>
+
+<body style="background-color: #F4F2EE;">
+
+    <nav class="md:hidden nav1 flex items-center h-14 bg-white justify-evenly shadow-2xl ">
+        <img src="img/logo.png" alt="" style="width: 40px; height: 40px;">
+
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+        <i class="fa-solid fa-house"></i>
+
+        <i class="fa-solid fa-user-group"></i>
+
+        <i class="fa-solid fa-briefcase"></i>
+
+        <i class="fa-solid fa-message"></i>
+
+        <i class="fa-solid fa-bell"></i>
+
+        <i class="fa-solid fa-user"></i>
+    </nav>
+
+
+
+    <header id="hd">
+        <nav class="f">
+            <div class="nav-left">
+            <div class="logo" style="width: 50px;">
+                <img src="img/logo.png" alt="" style="width:100%;">
+            </div>
+            <div class="nav-search"  style="background-color: #EDF3F8;height: 40px;">
+             <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+             </div>
+             <input type="text" placeholder="Search" style="background-color: #EDF3F8;">
+            </div>
+            </div>
+
+            <div class="nav-right">
+
+                  <div class="nav-menu1">
+                    <i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                  </div>
+
+                  <div class="nav-menu1">
+                    <i class="fa-solid fa-user-group"></i>
+                    <p>My Network</p>
+                  </div>
+
+                  <div class="nav-menu1">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <p>Jobs</p>
+                  </div>
+
+                  <div class="nav-menu1">
+                    <i class="fa-solid fa-message"></i>
+                    <p>Message</p>
+                  </div>
+
+                  <div class="nav-menu1">
+                    <i class="fa-solid fa-bell"></i>
+                    <p>Notification</p>
+                  </div>
+
+                  <div class="nav-menu1">
+                    <i class="fa-solid fa-user"></i>
+                    <p>Me  <i class="fa-solid fa-caret-down"></i></p>
+                  </div>
+
+                  
+
+                  <div class="last">
+                    <div style="display: flex; align-items: center; justify-content: center;">
+                    <img src="img/premium.jfif" alt="" style="height: 15px; width: 15px;">
+                </div>
+                    <p>Try Premium for 0</p>
+                  </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <!--start of side1-->
+    <div class="q">
+        <div class="s ">
+            <div class="g">
+                <div class="body">
+                    <div>
+                        <div class="profile mt-3 bg-white" style="border-radius: 10px;width: 250px;">
+                            <div class="bg-purple-400 h-14 w-full">
+                                <div class="flex items-center justify-center">
+                                    <img src="img/1719718984699.jfif" alt=""
+                                        style="height: 70px; width: 70px; margin-top: 25px; border: 1px solid white; border-radius: 50%; ">
+                                </div>
+                            </div>
+                            <div class="info p-5 text-center mt-6 bg-white">
+                                <p class="font-semibold hover:underline">Vishnu Vardhan</p>
+                                <p style="font-size: 15px;">Attended Ponnaiyah Ramajayam Institute of Science &
+                                    Technology, Thanjavur</p>
+                            </div>
+                        </div>
+                        <hr>
+
+                        <div class="flex items-center justify-center gap-2 p-2"
+                            style="font-size: 12px; text-align: center; cursor: pointer;" id="more">
+                            <p>Show more </p>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5 ">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </div>
+
+                        <div class="  transition-all duration-1000" id="ifo">
+                            <div class="co p-3 bg-white" style="font-size: 12px;">
+                                <div class="flex gap-5 items-center">
+                                    <p>Connections</p>
+                                    <p class="text-blue-400">60</p>
+                                </div>
+                                <p class="font-bold">Connect with alumini</p>
+                            </div>
+                            <hr>
+
+                            <div class="pre p-3 bg-white" style="font-size: 12px;">
+                                <p class="text-gray-500">Achieve your career goals</p>
+                                <div class="flex items-center gap-2 mt-1">
+                                    <img src="img/premium.jfif" alt="" style="width: 15px; height: 15px;">
+                                    <p>Try Premium for ₹0</p>
+                                </div>
+                            </div>
+                            <hr>
+
+                            <div class="flex items-center p-3 bg-white gap-3">
+                                <i class="fa-solid fa-bookmark" style="color: rgb(119, 112, 112); "></i>
+                                <p style="font-size: 12px;">Saved items</p>
+                            </div>
+                            <hr>
+
+                            <div class="event mt-3">
+                                <div class="p-3 bg-white" style="font-size: 12px;margin-top: 0px;">
+                                    <div class="flex gap-5 items-center">
+                                        <p>Recent
+                                        </p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="size-5 hidden">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                        </svg>
+                                    </div>
+
+                                    <div class="groups flex gap-5 items-center mt-3">
+                                        <p class=" text-blue-400 font-semibold">Groups
+                                        </p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="size-5 hidden">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                        </svg>
+                                    </div>
+
+                                    <div class="events flex gap-5 items-center mt-3">
+                                        <p class=" hover:underline text-blue-400 font-semibold">Events
+                                        </p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="size-5">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M12 4.5v15m7.5-7.5h-15" />
+                                        </svg>
+
+                                    </div>
+
+                                    <div class="last mt-3">
+                                        <p class="hover:underline text-blue-400 font-semibold">Followed Hashtags
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr>
+                            <div class="p-3 bg-white flex justify-center items-center">
+                                <p style="font-size: 13px;color: rgb(145, 131, 131);" class="hover:underline ">Discover
+                                    more</p>
+                            </div>
+                            <hr>
+
+                            <div id="less" class="flex items-center mt-2 justify-center gap-2 p-2"
+                                style="font-size: 12px; text-align: center;cursor: pointer;">
+                                <p>Show less </p>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m4.5 15.75 7.5-7.5 7.5 7.5" />
+                                </svg>
+
+                            </div>
+                        </div>
+                        <!--events-->
+                        <div class="events mt-3">
+                            <div class="p-3 bg-white" style="font-size: 12px;margin-top: 0px;">
+                                <div class="flex gap-5 items-center">
+                                    <p>Recent
+                                    </p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-5 hidden">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                    </svg>
+                                </div>
+
+                                <div class="groups flex gap-5 items-center mt-3">
+                                    <p class=" text-blue-400 font-semibold">Groups
+                                    </p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-5 hidden">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                    </svg>
+                                </div>
+
+                                <div class="events flex gap-5 items-center mt-3">
+                                    <p class=" hover:underline text-blue-400 font-semibold">Events
+                                    </p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-5">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M12 4.5v15m7.5-7.5h-15" />
+                                    </svg>
+
+                                </div>
+
+                                <div class="last mt-3">
+                                    <p class="hover:underline text-blue-400 font-semibold">Followed Hashtags
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--eventsend-->
+                    </div>
+                    <!--end of firstside-->
+
+                    <!--start of side2-->
+                    <div class="mt-3" style="width: 550px;">
+                        <div>
+                            <div class="serach p-3 bg-white">
+                                <div class="s gap-2 flex items-center">
+                                    <img src="img/1719718984699.jfif" alt=""
+                                        style="border-radius: 50%; height: 50px; width: 50px;">
+                                    <input type="text" placeholder="Start a post, try writing with AI"
+                                        style="width: 400px;border-radius: 20px;padding: 10px;color: black; font-weight: bold;">
+                                </div>
+                                <div class="flex mt-5 justify-evenly">
+                                    <div class="b1 flex gap-1 items-center">
+                                        <img src="img/img.png" alt="" style="width:25px; height: 25px;">
+                                        <p style="font-size: 12px;">Media</p>
+                                    </div>
+
+                                    <div class="b1 flex gap-1 items-center">
+                                        <img src="img/calender.png" alt="" style="width:25px; height: 25px;">
+                                        <p style="font-size: 12px;">Event</p>
+                                    </div>
+
+                                    <div class="b1 flex gap-1 items-center">
+                                        <img src="img/article.png" alt="" style="width:25px; height: 25px;">
+                                        <p style="font-size: 12px;">Write Article</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="posts mt-5">
+                                <div class="post1 p-3  bg-white">
+                                    <div class="nav-post flex justify-between ">
+
+                                        <div class="flex gap-3" style="font-size: 13px;">
+                                            <img style="border-radius: 50%; height: 35px; height: 35px;"
+                                                src="https://media.licdn.com/dms/image/v2/D4D03AQEujl0-Dt5G6g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1722190166325?e=1728518400&v=beta&t=VkT7VLcy98ZBgHFWby4BDhxIh7xD6Q5mCyO659Xxv8M"
+                                                alt="" style="width: 40px; height: 40px;">
+                                            <div>
+                                                <h1>Full Stack Developer Community....
+
+                                                </h1>
+                                                <p> Wairimu Wanjiku • 3rd+</p>
+                                                <p>3m •</p>
+
+                                            </div>
+                                        </div>
+
+
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="size-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M6 18 18 6M6 6l12 12" />
+                                        </svg>
+                                    </div>
+                                    <div class="con p-2" style="font-size: 13px;">
+                                        <p>Join Our Full stack course with up to 100% Scholarship
+                                        </p>
+                                        <p>Register Here:</p>
+
+                                        <div class="flex items-center justify-between">
+                                            <p class="text-blue-500">https://lnkd.in/dY-GZuav</p>
+                                            <p class="hover:text-blue-500 hover:underline">…see more</p>
+
+                                        </div>
+
+                                        <div class="poll mt-5 border p-4"
+                                            style="border: .2px solid gray; border-radius: 10px;">
+                                            <p class="font-semibold">Which protocol is commonly used for secure </p>
+                                            <p class="font-semibold">communication over the internet?</p>
+                                            <p class="mt-2">The author can see how you vote. <a href=""
+                                                    class="text-blue-500">Learn more</a>
+
+                                                <button
+                                                    class="text-blue-500 border mt-3 w-full border-black flex items-center p-1 justify-center hover:bg-blue-100"
+                                                    style="border-radius: 10px;">HTTP</button>
+                                                <button
+                                                    class="text-blue-500 border mt-3 w-full border-black flex items-center p-1 justify-center hover:bg-blue-100""
+                                                    style="border-radius: 10px;">HTTPS</button>
+                                            </p>
+
+                                            <p class="mt-2">16 votes • 3d left</p>
+                                        </div>
+
+
+
+                                        <div class="flex justify-center gap-40 mt-5 border-t-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" class="size-6 mt-3">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z" />
+                                            </svg>
+
+
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" class="size-6 mt-3">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 0 1 1.037-.443 48.282 48.282 0 0 0 5.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                            <div class="post2 mt-3 bg-white ">
+                                <nav class="flex gap-3 p-3" style="font-size: 13px;">
+                                    <img src="img/post2.jfif" alt="" style="height: 35px; width: 35px;">
+                                    <div>
+                                        <p class="font-semibold">Apple</p>
+                                        <p>Promoted</p>
+                                    </div>
+                                </nav>
+                                <div style="font-size: 13px;">
+                                    <p class="p-3">Safari. A browser that’s actually private.</p>
+                                    <img src="img/post22.jfif" alt="" class="w-full">
+                                </div>
+                                <div class="p-3" style="font-size: 13px; background-color: #edf3f8;">
+
+
+
+                                    <div class="flex justify-between">
+                                        <p>Privacy. That’s iPhone.</p>
+                                        <button
+                                            style="border: 1px solid black; border-radius: 10px; padding: 3px;">Learn
+                                            more</button>
+                                    </div>
+                                    <p>apple.com</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!--post3-->
+
+                        <div class="post1 p-3  mt-5 bg-white">
+                            <div class="nav-post flex justify-between ">
+
+                                <div class="flex gap-3" style="font-size: 13px;">
+                                    <img style="border-radius: 50%; height: 35px; height: 35px;"
+                                        src="https://media.licdn.com/dms/image/D5635AQGXW0U7XhrOLA/profile-framedphoto-shrink_100_100/0/1660002772504?e=1723636800&v=beta&t=qI7fWv009voKVJgExzbAg17Cud6UsjL8Wn6uG7luB0A"
+                                        alt="" style="width: 40px; height: 40px;">
+                                    <div>
+                                        <h1>Software Developer
+
+                                        </h1>
+                                        <p> Suresh • 3rd+</p>
+                                        <p>2h •</p>
+
+                                    </div>
+                                </div>
+
+
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                                </svg>
+                            </div>
+                            <div class="con p-2" style="font-size: 13px;">
+
+
+
+
+                                <div class="poll mt-0 border p-4" style="border: .2px solid gray; border-radius: 10px;">
+                                    <p class="font-semibold">JVM stands for </p>
+                                    <p class="font-semibold">communication over the internet?</p>
+                                    <p class="mt-2">The author can see how you vote. <a href=""
+                                            class="text-blue-500">Learn more</a>
+
+                                        <button
+                                            class="text-blue-500 border mt-3 w-full border-black flex items-center p-1 justify-center"
+                                            style="border-radius: 10px;">Java Virtual Machine</button>
+                                        <button
+                                            class="text-blue-500 border mt-3 w-full border-black flex items-center p-1 justify-center"
+                                            style="border-radius: 10px;">Java virtualization machine</button>
+                                        <button
+                                            class="text-blue-500 border mt-3 w-full border-black flex items-center p-1 justify-center"
+                                            style="border-radius: 10px;">Java visual machine</button>
+                                        <button
+                                            class="text-blue-500 border mt-3 w-full border-black flex items-center p-1 justify-center"
+                                            style="border-radius: 10px;">None of the above</button>
+                                    </p>
+
+                                    <p class="mt-2">16 votes • 3d left</p>
+                                </div>
+
+
+
+                                <div class="flex justify-center gap-40 mt-5 border-t-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-6 mt-3">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z" />
+                                    </svg>
+
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-6 mt-3">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 0 1 1.037-.443 48.282 48.282 0 0 0 5.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+                                    </svg>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+
+                        <!--post4-->
+
+                        <div class="post1 p-3  mt-5 bg-white">
+                            <div class="nav-post flex justify-between ">
+
+                                <div class="flex gap-3" style="font-size: 13px;">
+                                    <img style="border-radius: 50%; height: 35px; height: 35px;"
+                                        src="https://media.licdn.com/dms/image/D560BAQHadl2jXQB0SQ/company-logo_100_100/0/1709290867578/socio_genee_logo?e=1730937600&v=beta&t=dhCkWcsec3cxT7Z7R0RwRQWqT8sslPidQBOeSW2jDz0"
+                                        alt="" style="width: 40px; height: 40px;">
+                                    <div>
+                                        <h1>Socio GeneeSocio Genee
+
+
+
+                                        </h1>
+                                        <p> 257 followers</p>
+                                        <p> Promoted</p>
+
+                                    </div>
+                                </div>
+
+
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                                </svg>
+                            </div>
+                            <div class="con p-2" style="font-size: 13px;">
+
+
+
+
+                                <div class="poll mt-0 border p-0" style="border: .2px solid gray; border-radius: 10px;">
+                                    <!-- Slideshow container -->
+                                    <div class="slideshow-container">
+
+                                        <!-- Full-width images with number and caption text -->
+                                        <div class="mySlides fade">
+                                            <div class="numbertext">1 / 3</div>
+                                            <img src="./img/s1.jfif" style="width:100%">
+                                            <div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="mySlides fade">
+                                            <div class="numbertext">2 / 3</div>
+                                            <img src="./img/s2.jfif" style="width:100%">
+
+                                        </div>
+
+                                        <div class="mySlides fade">
+                                            <div class="numbertext">3 / 3</div>
+                                            <img src="./img/s3.jfif" style="width:100%">
+
+                                        </div>
+
+                                        <!-- Next and previous buttons -->
+                                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    </div>
+                                    <br>
+
+
+
+                                </div>
+
+
+
+                                <div class="flex justify-center gap-20 mt-5 border-t-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-6 mt-3">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z" />
+                                    </svg>
+
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-6 mt-3">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 0 1 1.037-.443 48.282 48.282 0 0 0 5.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+                                    </svg>
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-6 mt-3">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+                                    </svg>
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-6 mt-3">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
+                                    </svg>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <style>
+                .m {
+                    font-size: 14px;
+                    margin-bottom: 8px;
+                    color: gray;
+
+                }
+            </style>
+
+            <div class="" style="width:300px; border-radius: 15px; margin-top: 0px; margin-left: 15px;">
+                <footer class="mt-3" style="background-color:white;padding:12px;">
+                    <div class="flex justify-between items-center">
+                        <h1 class="my-2">LinkedIn News</h1>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+                        </svg>
+                    </div>
+                    <p class="my-2">Top stories</p>
+
+                    <p style="font-size: 13px;"><b>Olympics gets an AI touch</b></p>
+                    <p class="b mb-2" style="font-size: 12px;">4d ago • 4,675 readers</p>
+
+                    <p style="font-size: 13px;"><b>ShareChat lays off 40 people</b></p>
+                    <p class="m" style="font-size: 12px;">2d ago • 2,213 readers</p>
+
+                    <p style="font-size: 13px;"><b>Marketing crunch hits showbiz</b></p>
+                    <p class="m" style="font-size: 12px;">4d ago • 2,099 readers</p>
+
+                    <p style="font-size: 13px;"><b>IT leads hybrid adoption</b></p>
+                    <p class="m" style="font-size: 12px;">1d ago • 1,574 readers</p>
+
+                    <div class="flex gap-1 mt-5">
+                        <p>Today’s puzzle games </p>
+                        <button style="background-color: #FCE3BC;">NEW</button>
+                    </div>
+
+                    <div class="last mt-0">
+                        <div class="l1 my-1 flex gap-2">
+                            <img src="https://static.licdn.com/aero-v1/sc/h/8ilyk40nkjoeuzohmqsoc6iiv" alt="">
+                            <div>
+                                <p>Crossclimb #99
+                                </p>
+                                <p class="text-gray-500" style="font-size: 13px;">Unlock a trivia ladder</p>
+                            </div>
+                        </div>
+
+                        <div class="l1 my-1 flex gap-2">
+                            <img src="https://static.licdn.com/aero-v1/sc/h/25itbd3dpc6ockbgvdhot9qp1" alt="">
+                            <div>
+                                <p>
+                                    Queens #99
+                                </p>
+                                <p class="text-gray-500" style="font-size: 13px;">Crown each region</p>
+                            </div>
+                        </div>
+
+                        <div class="l1 my-1 flex gap-2">
+                            <img src="https://static.licdn.com/aero-v1/sc/h/3zbbe4rnqg4embu5uy17dpiph" alt="">
+                            <div>
+                                <p>
+
+                                    Pinpoint #99
+                                </p>
+                                <p class="text-gray-500" style="font-size: 13px;">Guess the category</p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+
+                <div class="bg-white flex items-center justify-center mt-2">
+                    <img src="https://media.licdn.com/media/AAYQAgTPAAgAAQAAAAAAADVuOvKzTF-3RD6j-qFPqhubBQ.png" alt="" class="w-full sticky">
+                </div>
+
+
+                <div class="flex justify-center gap-3 mt-3" style="font-size: 12px;">
+
+
+
+
+
+                    <p> About</p>
+                    <p>Accessibility</p>
+                    <p>Help Center</p>
+                    
+                </div>
+
+
+
+
+
+
+
+
+                <div class="flex justify-center gap-3 mt-3" style="font-size: 12px;">
+
+
+
+
+                    <p>
+                        Privacy & Terms </p>
+                    <p>Ad Choices</p>
+                    
+                    
+
+                </div>
+
+                <div class="flex justify-center gap-3 mt-3" style="font-size: 12px;">
+                    <p> Advertising</p>
+                    <p>
+                        Business Services </p>
+                </div>
+
+                <div class="flex justify-center gap-3 mt-3" style="font-size: 12px;">
+                    <p>Get the LinkedIn app</p>
+                    <p>
+                        More</p>
+                </div>
+
+                <div class="flex justify-center my-2 gap-2">
+                    <img src="https://static.licdn.com/aero-v1/sc/h/aahlc8ivbnmk0t3eyz8as5gvr" alt="" class="">
+                    <p style="font-size: 12px;">LinkedIn Corporation © 2024</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+
+
+
+    <!--formobile-->
+    <div class="mobile md:hidden">
+
+
+        <div class="profil mt-3 bg-white" style="border-radius: 10px;">
+            <div class="bg-purple-400 h-14 w-full">
+                <div class="flex items-center justify-center">
+                    <img src="img/1719718984699.jfif" alt=""
+                        style="height: 70px; width: 70px; margin-top: 25px; border: 1px solid white; border-radius: 50%; ">
+                </div>
+            </div>
+            <div class="info p-5 text-center mt-6 bg-white">
+                <p class="font-semibold hover:underline">Vishnu Vardhan</p>
+                <p style="font-size: 15px;">Attended Ponnaiyah Ramajayam Institute of Science & Technology, Thanjavur
+                </p>
+            </div>
+        </div>
+
+        <div class="flex items-center justify-center gap-2 p-2"
+            style="font-size: 12px; text-align: center; cursor: pointer;" id="mor">
+            <p>Show more </p>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-5 ">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+            </svg>
+        </div>
+
+        <div class="hidden transition-all duration-1000" id="if">
+            <div class="co p-3 bg-white" style="font-size: 12px;">
+                <div class="flex gap-5 items-center">
+                    <p>Connections</p>
+                    <p class="text-blue-400">60</p>
+                </div>
+                <p class="font-bold">Connect with alumini</p>
+            </div>
+            <hr>
+
+            <div class="pre p-3 bg-white" style="font-size: 12px;">
+                <p class="text-gray-500">Achieve your career goals</p>
+                <div class="flex items-center gap-2 mt-1">
+                    <img src="img/premium.jfif" alt="" style="width: 15px; height: 15px;">
+                    <p>Try Premium for ₹0</p>
+                </div>
+            </div>
+            <hr>
+
+            <div class="flex items-center p-3 bg-white gap-3">
+                <i class="fa-solid fa-bookmark" style="color: rgb(119, 112, 112); "></i>
+                <p style="font-size: 12px;">Saved items</p>
+            </div>
+            <hr>
+
+            <div class="event mt-3">
+                <div class="p-3 bg-white" style="font-size: 12px;margin-top: 0px;">
+                    <div class="flex gap-5 items-center">
+                        <p>Recent
+                        </p>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-5 hidden">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </div>
+
+                    <div class="groups flex gap-5 items-center mt-3">
+                        <p class=" text-blue-400 font-semibold">Groups
+                        </p>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-5 hidden">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </div>
+
+                    <div class="events flex gap-5 items-center mt-3">
+                        <p class=" hover:underline text-blue-400 font-semibold">Events
+                        </p>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                        </svg>
+
+                    </div>
+
+                    <div class="last mt-3">
+                        <p class="hover:underline text-blue-400 font-semibold">Followed Hashtags
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <div class="p-3 bg-white flex justify-center items-center">
+                <p style="font-size: 13px;color: rgb(145, 131, 131);" class="hover:underline ">Discover more</p>
+            </div>
+            <hr>
+
+            <div id="les" class="flex items-center mt-2 justify-center gap-2 p-2"
+                style="font-size: 12px; text-align: center;cursor: pointer;">
+                <p>Show less </p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
+                </svg>
+
+            </div>
+
+        </div>
+
+
+        <div class="serach p-3 bg-white">
+            <div class="s gap-2 flex items-center">
+                <img src="img/1719718984699.jfif" alt="" style="border-radius: 50%; height: 50px; width: 50px;">
+                <input type="text" placeholder="Start a post, try writing with AI"
+                    style="width: 400px;border-radius: 20px;padding: 10px;color: black; font-weight: bold;">
+            </div>
+            <div class="flex mt-5 justify-evenly">
+                <div class="b1 flex gap-1 items-center">
+                    <img src="img/img.png" alt="" style="width:25px; height: 25px;">
+                    <p style="font-size: 12px;">Media</p>
+                </div>
+
+                <div class="b1 flex gap-1 items-center">
+                    <img src="img/calender.png" alt="" style="width:25px; height: 25px;">
+                    <p style="font-size: 12px;">Event</p>
+                </div>
+
+                <div class="b1 flex gap-1 items-center">
+                    <img src="img/article.png" alt="" style="width:25px; height: 25px;">
+                    <p style="font-size: 12px;">Write Article</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="post1 p-3 mt-10 bg-white">
+            <div class="nav-post flex justify-between ">
+
+                <div class="flex gap-3" style="font-size: 13px;">
+                    <img style="border-radius: 50%; height: 35px; height: 35px;"
+                        src="https://media.licdn.com/dms/image/v2/D4D03AQEujl0-Dt5G6g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1722190166325?e=1728518400&v=beta&t=VkT7VLcy98ZBgHFWby4BDhxIh7xD6Q5mCyO659Xxv8M"
+                        alt="" style="width: 40px; height: 40px;">
+                    <div>
+                        <h1>Full Stack Developer Community....
+
+                        </h1>
+                        <p> Wairimu Wanjiku • 3rd+</p>
+                        <p>3m •</p>
+
+                    </div>
+                </div>
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>
+            </div>
+            <div class="con p-2" style="font-size: 13px;">
+                <p>Join Our Full stack course with up to 100% Scholarship
+                </p>
+                <p>Register Here:</p>
+
+                <div class="flex items-center justify-between">
+                    <p class="text-blue-500">https://lnkd.in/dY-GZuav</p>
+                    <p class="hover:text-blue-500 hover:underline">…see more</p>
+
+                </div>
+
+                <div class="poll mt-5 border p-4" style="border: .2px solid gray; border-radius: 10px;">
+                    <p class="font-semibold">Which protocol is commonly used for secure </p>
+                    <p class="font-semibold">communication over the internet?</p>
+                    <p class="mt-2">The author can see how you vote. <a href="" class="text-blue-500">Learn more</a>
+
+                        <button
+                            class="text-blue-500 border mt-3 w-full border-black flex items-center p-1 justify-center"
+                            style="border-radius: 10px;">HTTP</button>
+                        <button
+                            class="text-blue-500 border mt-3 w-full border-black flex items-center p-1 justify-center"
+                            style="border-radius: 10px;">HTTPS</button>
+                    </p>
+
+                    <p class="mt-2">16 votes • 3d left</p>
+                </div>
+
+
+
+                <div class="flex justify-center gap-40 mt-5 border-t-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6 mt-3">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z" />
+                    </svg>
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6 mt-3">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 0 1 1.037-.443 48.282 48.282 0 0 0 5.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+       
+
+        <div class="post2 mt-3 bg-white ">
+            <nav class="flex gap-3 p-3" style="font-size: 13px;">
+                <img src="img/post2.jfif" alt="" style="height: 35px; width: 35px;">
+                <div>
+                    <p class="font-semibold">Apple</p>
+                    <p>Promoted</p>
+                </div>
+            </nav>
+            <div style="font-size: 13px;">
+                <p class="p-3">Safari. A browser that’s actually private.</p>
+                <img src="img/post22.jfif" alt="" class="w-full">
+            </div>
+            <div class="p-3" style="font-size: 13px; background-color: #edf3f8;">
+
+
+
+                <div class="flex justify-between">
+                    <p>Privacy. That’s iPhone.</p>
+                    <button
+                        style="border: 1px solid black; border-radius: 10px; padding: 3px;">Learn
+                        more</button>
+                </div>
+                <p>apple.com</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="post1 md:hidden p-3  mt-5 bg-white">
+        <div class="nav-post flex justify-between ">
+
+            <div class="flex gap-3" style="font-size: 13px;">
+                <img style="border-radius: 50%; height: 35px; height: 35px;"
+                    src="https://media.licdn.com/dms/image/D5635AQGXW0U7XhrOLA/profile-framedphoto-shrink_100_100/0/1660002772504?e=1723636800&v=beta&t=qI7fWv009voKVJgExzbAg17Cud6UsjL8Wn6uG7luB0A"
+                    alt="" style="width: 40px; height: 40px;">
+                <div>
+                    <h1>Software Developer
+
+                    </h1>
+                    <p> Suresh • 3rd+</p>
+                    <p>2h •</p>
+
+                </div>
+            </div>
+
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>
+        </div>
+        <div class="con p-2" style="font-size: 13px;">
+
+
+
+
+            <div class="poll mt-0 border p-4" style="border: .2px solid gray; border-radius: 10px;">
+                <p class="font-semibold">JVM stands for </p>
+                <p class="font-semibold">communication over the internet?</p>
+                <p class="mt-2">The author can see how you vote. <a href=""
+                        class="text-blue-500">Learn more</a>
+
+                    <button
+                        class="text-blue-500 border mt-3 w-full border-black flex items-center p-1 justify-center"
+                        style="border-radius: 10px;">Java Virtual Machine</button>
+                    <button
+                        class="text-blue-500 border mt-3 w-full border-black flex items-center p-1 justify-center"
+                        style="border-radius: 10px;">Java virtualization machine</button>
+                    <button
+                        class="text-blue-500 border mt-3 w-full border-black flex items-center p-1 justify-center"
+                        style="border-radius: 10px;">Java visual machine</button>
+                    <button
+                        class="text-blue-500 border mt-3 w-full border-black flex items-center p-1 justify-center"
+                        style="border-radius: 10px;">None of the above</button>
+                </p>
+
+                <p class="mt-2">16 votes • 3d left</p>
+            </div>
+
+
+
+            <div class="flex  justify-center gap-40 mt-5 border-t-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor" class="size-6 mt-3">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z" />
+                </svg>
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor" class="size-6 mt-3">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 0 1 1.037-.443 48.282 48.282 0 0 0 5.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+                </svg>
+            </div>
+        </div>
+
+
+    
+
+
+        
+
+        
+    
+
+
+    </div>
+
+
+    <div class="post2 mt-3 bg-white md:hidden ">
+        <nav class="flex gap-3 p-3" style="font-size: 13px;">
+            <img src="img/post2.jfif" alt="" style="height: 35px; width: 35px;">
+            <div>
+                <p class="font-semibold">Apple</p>
+                <p>Promoted</p>
+            </div>
+        </nav>
+        <div style="font-size: 13px;">
+            <p class="p-3">Safari. A browser that’s actually private.</p>
+            <img src="img/microsoft.jfif" alt="" class="w-full">
+        </div>
+        <div class="p-3" style="font-size: 13px; background-color: #edf3f8;">
+
+
+
+            <div class="flex justify-between">
+                <p>Get started with Azure</p>
+                <button
+                    style="border: 1px solid black; border-radius: 10px; padding: 3px;">Sign
+                    up</button>
+            </div>
+            <p>azure.microsoft.com</p>
+        </div>
+    </div>
+</div>
+
+
+
+    <style>
+        .f {
+            font-size: 14px;
+            margin-bottom: 8px;
+            color: gray;
+
+        }
+    </style>
+
+    <div class="md:hidden" style="margin-top: 0px; ">
+        <footer class="mt-3" style="background-color:white;padding:12px;">
+            <div class="flex justify-between items-center">
+                <h1 class="my-2">LinkedIn News</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+                </svg>
+            </div>
+            <p class="my-2">Top stories</p>
+
+            <p>Olympics gets an AI touch</p>
+            <p class="b mb-2">4d ago • 4,675 readers</p>
+
+            <p>ShareChat lays off 40 people</p>
+            <p class="f">2d ago • 2,213 readers</p>
+
+            <p>Marketing crunch hits showbiz</p>
+            <p class="f">4d ago • 2,099 readers</p>
+
+            <p>IT leads hybrid adoption</p>
+            <p class="f">1d ago • 1,574 readers</p>
+
+            <div class="flex gap-1">
+                <p>Today’s puzzle games </p>
+                <button style="background-color: #FCE3BC;">NEW</button>
+            </div>
+
+            <div class="last mt-5">
+                <div class="l1 my-1 flex gap-2">
+                    <img src="https://static.licdn.com/aero-v1/sc/h/8ilyk40nkjoeuzohmqsoc6iiv" alt="">
+                    <div>
+                        <p>Crossclimb #99
+                        </p>
+                        <p class="text-gray-500" style="font-size: 13px;">Unlock a trivia ladder</p>
+                    </div>
+                </div>
+
+                <div class="l1 my-1 flex gap-2">
+                    <img src="https://static.licdn.com/aero-v1/sc/h/25itbd3dpc6ockbgvdhot9qp1" alt="">
+                    <div>
+                        <p>
+                            Queens #99
+                        </p>
+                        <p class="text-gray-500" style="font-size: 13px;">Crown each region</p>
+                    </div>
+                </div>
+
+                <div class="l1 my-1 flex gap-2">
+                    <img src="https://static.licdn.com/aero-v1/sc/h/3zbbe4rnqg4embu5uy17dpiph" alt="">
+                    <div>
+                        <p>
+
+                            Pinpoint #99
+                        </p>
+                        <p class="text-gray-500" style="font-size: 13px;">Guess the category</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <div class="bg-white flex items-center justify-center mt-2">
+            <img src="https://media.licdn.com/media/AAYQAgTPAAgAAQAAAAAAADVuOvKzTF-3RD6j-qFPqhubBQ.png" alt="">
+        </div>
+
+
+        <div class="flex justify-center gap-3 mt-3" style="font-size: 12px;">
+
+
+
+
+
+            <p> About</p>
+            <p>Accessibility</p>
+            <p>Help Center</p>
+            <p>
+                Privacy & Terms </p>
+            <p>Ad Choices</p>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="flex justify-center gap-3 mt-3" style="font-size: 12px;">
+
+
+
+
+
+            <p> Advertising</p>
+            <p>
+                Business Services </p>
+            <p>Get the LinkedIn app</p>
+            <p>
+                More</p>
+
+        </div>
+
+        <div class="flex justify-center my-2 gap-2">
+            <img src="https://static.licdn.com/aero-v1/sc/h/aahlc8ivbnmk0t3eyz8as5gvr" alt="">
+            <p style="font-size: 12px;">LinkedIn Corporation © 2024</p>
+        </div>
+    </div>
+
+    
+
+
+
+
+</div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="mobile.js"></script>
+</body>
+
+</html>
